@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60755d3a-991d-4fbf-bcc2-7145a1004429" name="Default Changelist" comment="Corrections .gitignore" />
+    <list default="true" id="60755d3a-991d-4fbf-bcc2-7145a1004429" name="Default Changelist" comment="Corrections">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodeExercisesJavaMasterclass/PrimitiveTypesChallengeDecimal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodeExercisesJavaMasterclass/PrimitiveTypesChallengeDecimal.class" afterDir="false" />
+    </list>
     <list id="26e37c39-2a7c-42e7-bea6-0b9d4a90e8c2" name="Revert &quot;Delete workspace.xml&quot;" comment="Revert &quot;Delete workspace.xml&quot;&#10;&#10;This reverts commit b192db3b" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PrimitiveTypesCharBoolean">
     <configuration name="PrimitiveTypesChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrimitiveTypesChallenge" />
       <module name="CodeExercisesJavaMasterclass" />
@@ -50,8 +53,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimitiveTypesCharBoolean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimitiveTypesCharBoolean" />
+      <module name="CodeExercisesJavaMasterclass" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimitiveTypesCharBoolean" />
         <item itemvalue="Application.PrimitiveTypesChallenge" />
       </list>
     </recent_temporary>
@@ -114,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622054037632</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Corrections">
+      <created>1622054154168</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622054154168</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,8 +152,8 @@
     <MESSAGE value="Because it had to be done" />
     <MESSAGE value="Update .gitignore to include uiDesigner.xml" />
     <MESSAGE value="Revert &quot;Delete workspace.xml&quot;&#10;&#10;This reverts commit b192db3b" />
-    <MESSAGE value="Corrections" />
     <MESSAGE value="Corrections .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrections .gitignore" />
+    <MESSAGE value="Corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrections" />
   </component>
 </project>
