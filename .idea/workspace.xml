@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60755d3a-991d-4fbf-bcc2-7145a1004429" name="Default Changelist" comment="Because it had to be done" />
-    <list id="26e37c39-2a7c-42e7-bea6-0b9d4a90e8c2" name="Revert &quot;Delete workspace.xml&quot;" comment="Revert &quot;Delete workspace.xml&quot;&#10;&#10;This reverts commit b192db3b">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="60755d3a-991d-4fbf-bcc2-7145a1004429" name="Default Changelist" comment="Corrections .gitignore" />
+    <list id="26e37c39-2a7c-42e7-bea6-0b9d4a90e8c2" name="Revert &quot;Delete workspace.xml&quot;" comment="Revert &quot;Delete workspace.xml&quot;&#10;&#10;This reverts commit b192db3b" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +79,42 @@
       <option name="project" value="LOCAL" />
       <updated>1622047719318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update .gitignore to include uiDesigner.xml">
+      <created>1622053855516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622053855516</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Revert &quot;Delete workspace.xml&quot;&#10;&#10;This reverts commit b192db3b">
+      <created>1622053864537</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622053864537</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Corrections">
+      <created>1622053901073</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622053901073</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Corrections .gitignore">
+      <created>1622053969530</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622053969530</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Corrections .gitignore">
+      <created>1622054037632</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622054037632</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +132,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update .gitignore based on gitignore.io" />
     <MESSAGE value="Because it had to be done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Because it had to be done" />
+    <MESSAGE value="Update .gitignore to include uiDesigner.xml" />
+    <MESSAGE value="Revert &quot;Delete workspace.xml&quot;&#10;&#10;This reverts commit b192db3b" />
+    <MESSAGE value="Corrections" />
+    <MESSAGE value="Corrections .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrections .gitignore" />
   </component>
 </project>
