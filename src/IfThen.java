@@ -1,3 +1,12 @@
+/** If Then, Logical AND, Logical OR
+ * "This lesson we are looking at the logical AND and OR.
+ * Both operate on boolean operands - Checking if a given condition is true or false.
+ * && AND
+ * || OR
+ * & bitwise operator working at the bit level.
+ * | bitwise operator working at the bit level.
+ */
+
 public class IfThen {
     public static void main(String[] args) {
         ifAndThen();
