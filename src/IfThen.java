@@ -5,6 +5,9 @@
  * || OR
  * & bitwise operator working at the bit level.
  * | bitwise operator working at the bit level.
+ * ! or NOT operator is also known as the Logical Complement Operator
+ * ? boolean : boolean is known as a ternary operator
+ * shorthand for if-then-else statement
  */
 
 public class IfThen {

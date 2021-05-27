@@ -9,7 +9,7 @@
  *  haven't covered yet) and operators.
  */
 
-public class Operands {
+public class Operators {
     public static void main(String[] args) {
         operators();
         breakLine();
