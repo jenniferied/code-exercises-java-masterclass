@@ -20,6 +20,8 @@
  */
 
 public class SecondsAndMinutesChallenge {
+    private static final String INVALID_ERROR_MESSAGE = "Invalid value";
+
     public static void main(String[] args) {
         challenge();
     }
@@ -42,7 +44,7 @@ public class SecondsAndMinutesChallenge {
             minutes %= 60;
             return converter(hours) + "h " + converter(minutes) + "m " + converter(seconds) + "s";
         }
-        return "Invalid value";
+        return INVALID_ERROR_MESSAGE;
     }
 
     public static String getDurationString ( int seconds){
@@ -51,7 +53,7 @@ public class SecondsAndMinutesChallenge {
             seconds %= 60;
             return getDurationString(minutes, seconds);
         }
-        return "Invalid value";
+        return INVALID_ERROR_MESSAGE;
     }
 
     public static String converter(int value) {
