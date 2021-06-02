@@ -4,7 +4,7 @@ public class BankAccount {
     private String customerName, email, phoneNumber;
 
     public static void main(String[] args) {
-        BankAccount sampleAccount = new BankAccount(2005.45, 1234567890,"email@web.com", "John Smith", "+44123432463");
+        BankAccount sampleAccount = new BankAccount(2005.45, 12345678,"email@web.com", "John Smith", "+44123432463");
         sampleAccount.printAllBankAccountData();
 
         sampleAccount.depositFunds(200);
@@ -15,11 +15,18 @@ public class BankAccount {
 
         sampleAccount.withdrawFunds(2500);
         sampleAccount.printAllBankAccountData();
+
+        BankAccount timAccount = new BankAccount("tim@web.com", "Tim Zimmermann", "+49878878996");
+        timAccount.printAllBankAccountData();
     }
 
     public BankAccount() {
         this(0, 10000000, "empty E-Mail", "empty customerName", "empty phoneNumber");
         System.out.println("Empty constructor called.");
+    }
+
+    public BankAccount(String email, String customerName, String phoneNumber) {
+        this(0, 10000000, email, customerName, phoneNumber);
     }
 
     public BankAccount(double balance, int accountNumber, String email, String customerName, String phoneNumber) {
@@ -55,26 +62,6 @@ public class BankAccount {
 
     public String getPhoneNumber() {
         return phoneNumber;
-    }
-
-    public void setAccountNumber(int accountNumber) {
-        this.accountNumber = accountNumber;
-    }
-
-    public void setBalance(double balance) {
-        this.balance = balance;
-    }
-
-    public void setCustomerName(String customerName) {
-        this.customerName = customerName;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
     }
 
     public void depositFunds(double depositAmount) {
