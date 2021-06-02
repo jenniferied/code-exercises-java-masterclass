@@ -4,12 +4,7 @@ public class BankAccount {
     private String customerName, email, phoneNumber;
 
     public static void main(String[] args) {
-        BankAccount sampleAccount = new BankAccount();
-        sampleAccount.setAccountNumber(1234567890);
-        sampleAccount.setEmail("email@web.com");
-        sampleAccount.setPhoneNumber("+44123432463");
-        sampleAccount.setCustomerName("John Smith");
-        sampleAccount.setBalance(2001.45);
+        BankAccount sampleAccount = new BankAccount(2005.45, 1234567890,"email@web.com", "John Smith", "+44123432463");
         sampleAccount.printAllBankAccountData();
 
         sampleAccount.depositFunds(200);
@@ -20,6 +15,19 @@ public class BankAccount {
 
         sampleAccount.withdrawFunds(2500);
         sampleAccount.printAllBankAccountData();
+    }
+
+    public BankAccount() {
+        this(0, 10000000, "empty E-Mail", "empty customerName", "empty phoneNumber");
+        System.out.println("Empty constructor called.");
+    }
+
+    public BankAccount(double balance, int accountNumber, String email, String customerName, String phoneNumber) {
+        this.balance = balance;
+        this.accountNumber = accountNumber;
+        this.email = email;
+        this.customerName = customerName;
+        this.phoneNumber = phoneNumber;
     }
 
     public void printAllBankAccountData() {
